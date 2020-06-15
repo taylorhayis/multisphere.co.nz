@@ -1,453 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Multisphere</title>
-    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:400,700|Mukta:500,700" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <meta name="description" content="Free bootstrap template Atlas">
+    <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
 </head>
-<body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-                                <svg width="48" height="32" viewBox="0 0 48 32" xmlns="http://www.w3.org/2000/svg">
-                                    <title>Multisphere</title>
-                                    <defs>
-                                        <linearGradient x1="0%" y1="100%" y2="0%" id="logo-a">
-                                            <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#007DFF" offset="100%"/>
-                                        </linearGradient>
-                                        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="logo-b">
-                                            <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#FF4F7A" offset="100%"/>
-                                        </linearGradient>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd">
-                                        <rect fill="url(#logo-a)" width="32" height="32" rx="16"/>
-                                        <rect fill="url(#logo-b)" x="16" width="32" height="32" rx="16"/>
-                                    </g>
-                                </svg>
-                            </a>
-                        </h1>
+
+<body>
+    <!-- banner -->
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-bk.jpg);">
+        <div class="container text-center text-md-left">
+            <header>
+                <div class="row justify-content-between">
+                    <div class="col-2">
+                        <img src="img/logo.png" alt="logo">
                     </div>
+                    <div class="col-6 align-self-center text-right">
+                        <a href="#" class="text-white lead">Multisphere</a>
+                    </div>
+                </div>
+            </header>
+            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
+            	A New Way<br>
+            	To Start Business
+            </h1>
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
+                Simple and affordable website solutions.
+                <br> Helping New Zealand businesses get online.
+            </p>
+            <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Started</a>
+        </div>
+    </div>
+    <!-- three-blcok -->
+    <div class="container my-5 py-2">
+
+        <center>
+        <div data-aos="fade-right" data-aos-duration="800" data-aos-once="true" >
+                    <h2 class="font-weight-bold">Need a website but dont know where to start?</h2>
+                    <p class="my-4">That's why we've created a simple and easy to understand system to connect you and your business to the online world.
+
+                </div>
+
+            </center>    
+        <div class="row">
+            <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-1.jpg" alt="Anti-spam" class="mx-auto">
+                <h4>Simple</h4>
+                <p>We make the website and ask you for feedback. When you're happy - we go live!</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-2.jpg" alt="Phishing Detect" class="mx-auto">
+                <h4>No contracts</h4>
+                <p>Cancel any time, and keep your website. It's a win win!</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-3.jpg" alt="Smart Scan" class="mx-auto">
+                <h4>Updatable</h4>
+                <p>Updates to the website are as simple as sending an email! (fees may apply)</p>
+            </div>
+        </div>
+    </div>
+    <!-- feature (skew background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-first">
+        <div class="container my-5">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6">
+                    <h2 class="font-weight-bold">Unlimited traffic <br>No unexpected fees</h2>
+                    <p class="my-4">Multisphere believes in open, affordable and clear pricing.
+                        <br> No packages, limits or add-ons. Just simple websites at affordable prices.</p>
+
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
+                    <img src="img/feature-1.png" alt="Take a look inside" class="mx-auto d-block">
                 </div>
             </div>
-        </header>
-
-        <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-inner">
-                        <div class="hero-copy">
-                            <h1 class="hero-title h2-mobile mt-0 is-revealing">Multisphere Web Solutions</h1>
-                            <p class="hero-paragraph is-revealing">Simple and affordable website solutions, for New Zealand businesses that need help getting online</p>
-                            <p class="hero-cta is-revealing"><a class="button button-primary button-shadow" href="#">Pricing and plans</a></p>
-                        </div>
-                        <div class="hero-illustration is-revealing">
-                            <svg width="528" height="413" viewBox="0 0 528 413" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="hero-illustration-a">
-                                        <stop stop-color="#A7FDE8" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#6EFACC" offset="100%"/>
-                                    </linearGradient>
-                                    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="hero-illustration-b">
-                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#FF4F7A" offset="100%"/>
-                                    </linearGradient>
-                                    <radialGradient fx="50%" fy="50%" r="100%" id="hero-illustration-c">
-                                        <stop stop-color="#6EFACC" offset="0%"/>
-                                        <stop stop-color="#6EFACC" stop-opacity="0" offset="100%"/>
-                                    </radialGradient>
-                                    <linearGradient x1="0%" y1="100%" y2="0%" id="hero-illustration-d">
-                                        <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#007DFF" offset="100%"/>
-                                    </linearGradient>
-                                    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="hero-illustration-e">
-                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#FF4F7A" offset="100%"/>
-                                    </linearGradient>
-                                    <filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="dropshadow-1">
-                                        <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"/>
-                                        <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"/>
-                                        <feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.2 0" in="shadowBlurOuter"/>
-                                    </filter>
-                                </defs>
-                                <g transform="translate(0 -1)" fill="none" fill-rule="evenodd">
-                                    <g transform="translate(128 290)" fill="url(#hero-illustration-a)">
-                                        <path d="M62.225 0l1.415 1.414L1.414 63.64 0 62.225zM66.468 4.243l1.414 1.414L5.657 67.882l-1.414-1.414zM70.71 8.485L72.126 9.9 9.899 72.125 8.485 70.71zM74.953 12.728l1.415 1.414-62.226 62.226-1.414-1.415zM79.196 16.97l1.414 1.415L18.385 80.61l-1.414-1.414zM83.439 21.213l1.414 1.414-62.226 62.226-1.414-1.414zM87.681 25.456l1.414 1.414L26.87 89.095l-1.414-1.414zM91.924 29.698l1.414 1.415-62.225 62.225-1.415-1.414z"/>
-                                        <path d="M91.924 29.698l1.414 1.415-62.225 62.225-1.415-1.414zM96.167 33.941l1.414 1.414-62.226 62.226-1.414-1.414zM100.41 38.184l1.413 1.414-62.225 62.225-1.414-1.414zM104.652 42.426l1.414 1.415-62.225 62.225-1.415-1.414zM108.894 46.669l1.415 1.414-62.226 62.226-1.414-1.415zM113.137 50.912l1.414 1.414-62.225 62.225-1.414-1.414zM117.38 55.154l1.414 1.415-62.225 62.225-1.415-1.414zM121.622 59.397l1.415 1.414-62.226 62.226-1.414-1.415z"/>
-                                        <g>
-                                            <path d="M100.811 0l-1.414 1.414 62.225 62.226 1.415-1.415zM96.569 4.243l-1.415 1.414 62.226 62.225 1.414-1.414zM92.326 8.485L90.912 9.9l62.225 62.226 1.414-1.414zM88.083 12.728l-1.414 1.414 62.225 62.226 1.415-1.415zM83.84 16.97l-1.414 1.415 62.226 62.225 1.414-1.414zM79.598 21.213l-1.414 1.414 62.225 62.226 1.414-1.414zM75.355 25.456l-1.414 1.414 62.226 62.225 1.414-1.414zM71.113 29.698l-1.415 1.415 62.226 62.225 1.414-1.414z"/>
-                                            <path d="M71.113 29.698l-1.415 1.415 62.226 62.225 1.414-1.414zM66.87 33.941l-1.414 1.414 62.225 62.226 1.414-1.414zM62.627 38.184l-1.414 1.414 62.226 62.225 1.414-1.414zM58.385 42.426l-1.414 1.415 62.225 62.225 1.414-1.414zM54.142 46.669l-1.414 1.414 62.225 62.226 1.415-1.415zM49.9 50.912l-1.415 1.414 62.226 62.225 1.414-1.414zM45.657 55.154l-1.414 1.415 62.225 62.225 1.414-1.414zM41.414 59.397L40 60.811l62.225 62.226 1.415-1.415z"/>
-                                        </g>
-                                    </g>
-                                    <g transform="matrix(1 0 0 -1 326 124)" fill="url(#hero-illustration-a)">
-                                        <path d="M62.225 0l1.415 1.414L1.414 63.64 0 62.225zM66.468 4.243l1.414 1.414L5.657 67.882l-1.414-1.414zM70.71 8.485L72.126 9.9 9.899 72.125 8.485 70.71zM74.953 12.728l1.415 1.414-62.226 62.226-1.414-1.415zM79.196 16.97l1.414 1.415L18.385 80.61l-1.414-1.414zM83.439 21.213l1.414 1.414-62.226 62.226-1.414-1.414zM87.681 25.456l1.414 1.414L26.87 89.095l-1.414-1.414zM91.924 29.698l1.414 1.415-62.225 62.225-1.415-1.414z"/>
-                                        <path d="M91.924 29.698l1.414 1.415-62.225 62.225-1.415-1.414zM96.167 33.941l1.414 1.414-62.226 62.226-1.414-1.414zM100.41 38.184l1.413 1.414-62.225 62.225-1.414-1.414zM104.652 42.426l1.414 1.415-62.225 62.225-1.415-1.414zM108.894 46.669l1.415 1.414-62.226 62.226-1.414-1.415zM113.137 50.912l1.414 1.414-62.225 62.225-1.414-1.414zM117.38 55.154l1.414 1.415-62.225 62.225-1.415-1.414zM121.622 59.397l1.415 1.414-62.226 62.226-1.414-1.415z"/>
-                                        <g>
-                                            <path d="M100.811 0l-1.414 1.414 62.225 62.226 1.415-1.415zM96.569 4.243l-1.415 1.414 62.226 62.225 1.414-1.414zM92.326 8.485L90.912 9.9l62.225 62.226 1.414-1.414zM88.083 12.728l-1.414 1.414 62.225 62.226 1.415-1.415zM83.84 16.97l-1.414 1.415 62.226 62.225 1.414-1.414zM79.598 21.213l-1.414 1.414 62.225 62.226 1.414-1.414zM75.355 25.456l-1.414 1.414 62.226 62.225 1.414-1.414zM71.113 29.698l-1.415 1.415 62.226 62.225 1.414-1.414z"/>
-                                            <path d="M71.113 29.698l-1.415 1.415 62.226 62.225 1.414-1.414zM66.87 33.941l-1.414 1.414 62.225 62.226 1.414-1.414zM62.627 38.184l-1.414 1.414 62.226 62.225 1.414-1.414zM58.385 42.426l-1.414 1.415 62.225 62.225 1.414-1.414zM54.142 46.669l-1.414 1.414 62.225 62.226 1.415-1.415zM49.9 50.912l-1.415 1.414 62.226 62.225 1.414-1.414zM45.657 55.154l-1.414 1.415 62.225 62.225 1.414-1.414zM41.414 59.397L40 60.811l62.225 62.226 1.415-1.415z"/>
-                                        </g>
-                                    </g>
-                                    <path d="M0 0h528v414H0z"/>
-                                    <path fill="#FFF" d="M0 63h528v297H0z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <path fill="#FFF" d="M0 63h528v297H0z"/>
-                                    <path fill="url(#hero-illustration-b)" d="M408 230h80v48h-80z"/>
-                                    <path d="M0 0h4v4H0V0zm0 12h4v4H0v-4zm0 12h4v4H0v-4zm0 12h4v4H0v-4zm0 12h4v4H0v-4zm0 12h4v4H0v-4zM12 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM24 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM36 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM48 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM60 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4z" transform="rotate(45 -118.861 431.981)" fill="url(#hero-illustration-c)"/>
-                                    <path fill="#FFF" d="M288 254h160v160H288z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <path fill="#FFF" d="M288 254h160v160H288z"/>
-                                    <path d="M248 79h88v24c0 35.346-28.654 64-64 64h-24V79z" fill="url(#hero-illustration-d)"/>
-                                    <path d="M348 132c0 26.51-21.49 48-48 48 0-26.51 21.49-48 48-48z" fill="url(#hero-illustration-e)" transform="matrix(1 0 0 -1 0 312)"/>
-                                    <path fill="#FFF" d="M200 31h88v88h-88z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <path fill="#FFF" d="M200 31h88v88h-88z"/>
-                                    <path fill="#F6F8FA" d="M24 248l88 88H24z"/>
-                                    <rect fill="url(#hero-illustration-d)" x="335" y="242" width="32" height="32" rx="16"/>
-                                </g>
-                            </svg>
-                        </div>
-                    </div>
+        </div>
+    </div>
+    <!-- feature (green background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+        <div class="container">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
+                    <h2 class="font-weight-bold">Always current</h2>
+                    <p class="my-4">
+                        Need a website with weekly or monthly updates? Paying for updates is easy and affordable. With custom options available for frequently updated websites.
+                    </p>
+                    <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Learn More</a>
                 </div>
-            </section>
-
-            <section class="features section text-center">
-                <div class="section-square"></div>
-                <div class="container">
-                    <div class="features-inner section-inner">
-                        <div class="features-wrap">
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-                                            <defs>
-                                                <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-1-a">
-                                                    <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#007DFF" offset="100%"/>
-                                                </linearGradient>
-                                                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-1-b">
-                                                    <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#FF4F7A" offset="100%"/>
-                                                </linearGradient>
-                                            </defs>
-                                            <g fill="none" fill-rule="evenodd">
-                                                <path d="M8 0h24v24a8 8 0 0 1-8 8H0V8a8 8 0 0 1 8-8z" fill="url(#feature-1-a)"/>
-                                                <path d="M48 16v24a8 8 0 0 1-8 8H16c0-17.673 14.327-32 32-32z" fill="url(#feature-1-b)"/>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h4 class="feature-title h3-mobile">Fresh</h4>
-                                    <p class="text-sm">Modern website design doesn't have to cost fortune, or take up all your time trying to build it yourself</p>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-                                            <defs>
-                                                <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-2-a">
-                                                    <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#007DFF" offset="100%"/>
-                                                </linearGradient>
-                                                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-2-b">
-                                                    <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#FF4F7A" offset="100%"/>
-                                                </linearGradient>
-                                            </defs>
-                                            <g fill="none" fill-rule="evenodd">
-                                                <path d="M0 0h32v7c0 13.807-11.193 25-25 25H0V0z" fill="url(#feature-2-a)"/>
-                                                <path d="M48 16v7c0 13.807-11.193 25-25 25h-7c0-17.673 14.327-32 32-32z" fill="url(#feature-2-b)" transform="matrix(1 0 0 -1 0 64)"/>
-                                            </g>
-                                        </svg>
-
-                                    </div>
-                                    <h4 class="feature-title h3-mobile">Affordable</h4>
-                                    <p class="text-sm">Only pay for what you need - with fixed prices so there are never surprises, and no expensive servers to maintain</p>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-                                            <defs>
-                                                <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-3-a">
-                                                    <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#007DFF" offset="100%"/>
-                                                </linearGradient>
-                                                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-3-b">
-                                                    <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#FF4F7A" offset="100%"/>
-                                                </linearGradient>
-                                            </defs>
-                                            <g fill="none" fill-rule="evenodd">
-                                                <circle fill="url(#feature-3-a)" cx="16" cy="16" r="16"/>
-                                                <path d="M16 16c17.673 0 32 14.327 32 32H16V16z" fill="url(#feature-3-b)"/>
-                                            </g>
-                                        </svg>
-
-                                    </div>
-                                    <h4 class="feature-title h3-mobile">Indexed</h4>
-                                    <p class="text-sm">Get picked up by Google, and start getting business from people searching for businesses like yours</p>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-                                            <defs>
-                                                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-4-a">
-                                                    <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#FF4F7A" offset="100%"/>
-                                                </linearGradient>
-                                                <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-4-b">
-                                                    <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#007DFF" offset="100%"/>
-                                                </linearGradient>
-                                            </defs>
-                                            <g fill="none" fill-rule="evenodd">
-                                                <path d="M32 16h16v16c0 8.837-7.163 16-16 16H16V32c0-8.837 7.163-16 16-16z" fill="url(#feature-4-a)"/>
-                                                <path d="M16 0h16v16c0 8.837-7.163 16-16 16H0V16C0 7.163 7.163 0 16 0z" fill="url(#feature-4-b)"/>
-                                            </g>
-                                        </svg>
-
-                                    </div>
-                                    <h4 class="feature-title h3-mobile">Custom</h4>
-                                    <p class="text-sm">Work with us as much or as little as you'd like to design your web page, and let us know if or when you want to make changes</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="pricing section">
-                <div class="section-square"></div>
-                <div class="container">
-                    <div class="pricing-inner section-inner has-top-divider">
-                        <h2 class="section-title mt-0 text-center">Pricing</h2>
-                        <div class="pricing-tables-wrap">
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner">
-                                    <div class="pricing-table-main">
-                                        <div class="pricing-table-header is-revealing">
-                                            <div class="pricing-table-title mt-12 mb-8">Static Page</div>
-                                            <div class="pricing-table-price mb-32 pb-24"><span class="pricing-table-price-currency h4">$</span><span class="pricing-table-price-amount h2">16</span>/mo</div>
-                                        </div>
-                                        <ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Unlimited Traffic</span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>No Contract</span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Pay to make updates or changes</span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span><b>Single page (like this site)</b></span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-table-cta is-revealing">
-                                        <a class="button button-primary button-shadow button-block" href="#">Learn More</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner">
-                                    <div class="pricing-table-main">
-                                        <div class="pricing-table-header is-revealing">
-                                            <div class="pricing-table-title mt-12 mb-8">Multi-Page</div>
-                                            <div class="pricing-table-price mb-32 pb-24"><span class="pricing-table-price-currency h4">$</span><span class="pricing-table-price-amount h2">38</span>/mo</div>
-                                        </div>
-                                        <ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Unlimited Traffic</span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>No Contract</span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>1 free update per month</span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span><b>Up to 5 pages</b></span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-table-cta is-revealing">
-                                        <a class="button button-primary button-shadow button-block" href="#">Get early access</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner">
-                                    <div class="pricing-table-main">
-                                        <div class="pricing-table-header is-revealing">
-                                            <div class="pricing-table-title mt-12 mb-8">E-Commerce</div>
-                                            <div class="pricing-table-price mb-32 pb-24"><span class="pricing-table-price-currency h4">from $</span><span class="pricing-table-price-amount h2">142</span>/mo</div>
-                                        </div>
-                                        <ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Unlimited Traffic</span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>6 Month Contract</span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Fully managed solution</span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span><b>Unlimited pages and items</b></span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-table-cta is-revealing">
-                                        <a class="button button-primary button-shadow button-block" href="#">Get early access</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="site-footer text-light">
-            <div class="container">
-                <div class="site-footer-inner has-top-divider">
-                    <div class="brand footer-brand">
-                        <a href="#">
-                            <svg width="48" height="32" viewBox="0 0 48 32" xmlns="http://www.w3.org/2000/svg">
-                                <title>Agnes</title>
-                                <defs>
-                                    <linearGradient x1="0%" y1="100%" y2="0%" id="logo-footer-a">
-                                        <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#007DFF" offset="100%"/>
-                                    </linearGradient>
-                                    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="logo-footer-b">
-                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#FF4F7A" offset="100%"/>
-                                    </linearGradient>
-                                </defs>
-                                <g fill="none" fill-rule="evenodd">
-                                    <rect fill="url(#logo-footer-a)" width="32" height="32" rx="16"/>
-                                    <rect fill="url(#logo-footer-b)" x="16" width="32" height="32" rx="16"/>
-                                </g>
-                            </svg>
-                        </a>
-                    </div>
-                    <ul class="footer-links list-reset">
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">About us</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ's</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                    </ul>
-                    <ul class="footer-social-links list-reset">
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Facebook</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#FFFFFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Twitter</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFFFFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Google</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#FFFFFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="footer-copyright">&copy; 2018 Agnes, all rights reserved</div>
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
+                    <img src="img/feature-2.png" alt="Safe and reliable" class="mx-auto d-block">
                 </div>
             </div>
-        </footer>
+        </div>
     </div>
 
-    <script src="dist/js/main.min.js"></script>
+    <!-- price table -->
+    <div class="container my-5 py-2" id="price-table">
+        <h2 class="text-center font-weight-bold d-block mb-3">Our pricing</h2>
+        <div class="row">
+            <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
+                <h4 class="my-4">STARTER</h4>
+                <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">18</span> / MO.</p>
+                <ul class="list-unstyled">
+                    <li>Unlimited Traffic</li>
+                    <li>1 Page</li>
+                    <li>Pay for future edits</li>
+                    <li>Full Support</li>
+                </ul>
+                <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Learn More</a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded" id="price-table__premium">
+                <h4 class="my-4">PREMIUM</h4>
+                <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">34</span> / MO.</p>
+                <ul class="list-unstyled">
+                    <li>Unlimited Traffic</li>
+                    <li>up to 5 Pages</li>
+                    <li>1 included update per month</li>
+                    <li>Full Support</li>
+                </ul>
+                <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-green">Learn More</a>
+            </div>
+            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
+                <h4 class="my-4">PROFESSIONAL</h4>
+                <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">142</span> / MO.</p>
+                <ul class="list-unstyled">
+                    <li>Unlimited Traffic</li>
+                    <li>Unlimited Pages</li>
+                    <li>Negotiable Maintenance</li>
+                    <li>Full Support</li>
+                </ul>
+                <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <!-- client -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-1.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-2.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-3.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-4.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-5.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-6.png" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(img/contact-bk.jpg);">
+        <div class="container my-5">
+            <div class="row justify-content-between">
+                <div class="col-md-6 text-white">
+                    <h2 class="font-weight-bold">Contact Us</h2>
+                    <p class="my-4">
+                        Dont hesitate to get in touch, we can tailor a solution of any size
+                        <br> for a startup, or an established ecommerce business.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>Email : company_email@com</li>
+                        <li>Phone : 361-688-5824</li>
+                        <li>Address : 4826 White Avenue, Corpus Christi, Texas</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                   <form
+  action="https://formspree.io/xzbjgwyy"
+  method="POST"
+>
+                    	<div class="row">
+	                        <div class="form-group col-md-6">
+	                            <label for="name">Your Name</label>
+	                            <input type="text" class="form-control" id="name" name="name">
+	                        </div>
+	                        <div class="form-group col-md-6">
+	                            <label for="package">Package</label>
+	                            <input type="text" class="form-control" id="package" name="package">
+	                        </div>
+	                        <div class="form-group col-md-6">
+	                            <label for="Email">Your Email</label>
+	                            <input type="text" class="form-control" id="Email" name="_replyto">
+	                        </div>
+	                        <div class="form-group col-md-6">
+	                            <label for="Email">Phone</label>
+	                            <input type="text" class="form-control" id="phone" name="phone">
+	                        </div>
+	                    </div>
+	                    <div class="form-group">
+	                        <label for="message">Message</label>
+	                        <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+	                    </div>
+                        <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- copyright -->
+	<div class="jumbotron jumbotron-fluid" id="copyright">
+        <div class="container">
+            <div class="row justify-content-between">
+            	<div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
+                    Copyright © 2020 Multisphere.co.nz
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    
+    <!-- AOS -->
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+      });
+    </script>
 </body>
+
 </html>
